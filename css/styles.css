@@ -1,0 +1,46 @@
+/* --- VARIABLES Y RESETEO BASE --- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    height: 100vh;
+}
+
+body {
+    background-color: gainsboro;
+    align-items: center;
+    height: 100%;
+    align-content: center;
+    justify-items: center;
+}
+
+section{
+    background-color: beige;
+
+    width: 800px;
+    height: 400px;
+    padding: 40px;
+
+    
+    
+}
+
+p{
+    font-size: 30px;
+    color: beige;
+}
+
+
+body:has(section:hover) p {
+    transition: 3s;
+    color: black;
+}
+
+br{
+    line-height: 100px;
+}
